@@ -39,4 +39,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: surefire-reports
-        paths: ${{ github.workspace }}/**/target/surefire-reports/*.xml
+        path: ${{ github.workspace }}/**/target/surefire-reports/*.xml
