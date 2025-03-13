@@ -32,7 +32,7 @@ jobs:
       run: mvn clean
 
     - name: Run Maven install
-      run: mvn install
+      run: mvn install -T 1C
 
     - name: Archive Surefire reports
       if: always()
