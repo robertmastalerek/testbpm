@@ -11,7 +11,7 @@
   <artifactId>eximeebpms-spring-compatibility-root</artifactId>
 
   <packaging>pom</packaging>
-  <name>Camunda Platform - engine - Spring - Root</name>
+  <name>EximeeBPMS - engine - Spring - Root</name>
 
   <modules>
     <module>core</module>

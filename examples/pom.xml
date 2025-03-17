@@ -4,7 +4,7 @@
   <groupId>org.eximeebpms.bpm.example</groupId>
   <artifactId>eximeebpms-example-root</artifactId>
   <packaging>pom</packaging>
-  <name>Camunda Platform - Example - Root</name>
+  <name>EximeeBPMS - Example - Root</name>
 
   <parent>
     <groupId>org.eximeebpms.bpm</groupId>

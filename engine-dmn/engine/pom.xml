@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>eximeebpms-engine-dmn</artifactId>
-  <name>camunda DMN - engine</name>
+  <name>EximeeBPMS DMN - engine</name>
   <properties>
     <camunda.artifact>org.camunda.bpm.dmn.engine</camunda.artifact>
     <camunda.osgi.import.additional>

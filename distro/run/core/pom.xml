@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>eximeebpms-bpm-run-core</artifactId>
-  <name>Camunda Platform - Run - Core</name>
+  <name>EximeeBPMS - Run - Core</name>
   <packaging>jar</packaging>
 
   <properties>

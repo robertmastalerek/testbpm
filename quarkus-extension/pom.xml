@@ -12,7 +12,7 @@
   <artifactId>eximeebpms-bpm-quarkus-parent</artifactId>
   <groupId>org.eximeebpms.bpm.quarkus</groupId>
 
-  <name>Camunda Platform - Quarkus Extension - Parent</name>
+  <name>EximeeBPMS - Quarkus Extension - Parent</name>
 
   <packaging>pom</packaging>
 

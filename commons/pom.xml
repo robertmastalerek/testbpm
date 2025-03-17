@@ -10,7 +10,7 @@
 
   <groupId>org.eximeebpms.commons</groupId>
   <artifactId>eximeebpms-commons-root</artifactId>
-  <name>camunda Commons - Root Pom</name>
+  <name>EximeeBPMS Commons - Root Pom</name>
   <inceptionYear>2014</inceptionYear>
   <packaging>pom</packaging>
 

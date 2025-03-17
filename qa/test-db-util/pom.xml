@@ -10,7 +10,7 @@
   <groupId>org.eximeebpms.bpm.qa.upgrade</groupId>
   <artifactId>eximeebpms-qa-upgrade-scenario-util</artifactId>
   <packaging>jar</packaging>
-  <name>Camunda Platform - QA - upgrade - scenario util</name>
+  <name>EximeeBPMS - QA - upgrade - scenario util</name>
 
   <dependencyManagement>
     <dependencies>

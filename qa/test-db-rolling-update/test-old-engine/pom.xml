@@ -10,7 +10,7 @@
 
   <artifactId>eximeebpms-qa-db-test-old-engine</artifactId>
   <packaging>jar</packaging>
-  <name>Camunda Platform - QA - upgrade - rolling update - test old engine</name>
+  <name>EximeeBPMS - QA - upgrade - rolling update - test old engine</name>
 
   <dependencyManagement>
     <dependencies>

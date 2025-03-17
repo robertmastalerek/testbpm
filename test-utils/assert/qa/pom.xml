@@ -3,7 +3,7 @@
   <artifactId>eximeebpms-bpm-assert-qa</artifactId>
   <packaging>jar</packaging>
   
-  <name>Camunda Platform - QA - Assert</name>
+  <name>EximeeBPMS - QA - Assert</name>
   
   <parent>
     <groupId>org.eximeebpms.bpm</groupId>

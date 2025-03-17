@@ -11,7 +11,7 @@
 
   <groupId>org.eximeebpms.bpm.juel</groupId>
   <artifactId>eximeebpms-juel</artifactId>
-  <name>Camunda Platform - JUEL</name>
+  <name>EximeeBPMS - JUEL</name>
 
   <properties>
     <!-- We only wrap and maintain external code in here that has

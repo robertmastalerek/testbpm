@@ -8,7 +8,7 @@
   </parent>
 
   <artifactId>eximeebpms-spin-dataformat-all</artifactId>
-  <name>camunda Spin - all dataformats in one</name>
+  <name>EximeeBPMS Spin - all dataformats in one</name>
 
   <properties>
     <!-- We shade artifacts into the jar, so we need to generate 

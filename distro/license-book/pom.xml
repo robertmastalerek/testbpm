@@ -11,7 +11,7 @@
   <artifactId>license-book</artifactId>
   <packaging>pom</packaging>
 
-  <name>Camunda Platform - License Book</name>
+  <name>EximeeBPMS - License Book</name>
 
   <dependencyManagement>
     <dependencies>

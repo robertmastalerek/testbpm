@@ -11,7 +11,7 @@
   <artifactId>eximeebpms-cdi-compatibility-root</artifactId>
 
   <packaging>pom</packaging>
-  <name>Camunda Platform - engine - CDI - Root</name>
+  <name>EximeeBPMS - engine - CDI - Root</name>
 
   <modules>
     <module>core</module>

@@ -3,7 +3,7 @@
   <artifactId>eximeebpms-bpm-junit5</artifactId>
   <packaging>jar</packaging>
   
-  <name>Camunda Platform - JUnit 5 Extension</name>
+  <name>EximeeBPMS - JUnit 5 Extension</name>
   
   <parent>
     <groupId>org.eximeebpms.bpm</groupId>

@@ -13,7 +13,7 @@
   <artifactId>eximeebpms-root</artifactId>
   <version>0.9.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Camunda Platform - Root Pom</name>
+  <name>EximeeBPMS - Root Pom</name>
   <inceptionYear>2013</inceptionYear>
 
   <description>
@@ -328,13 +328,13 @@
     <repository>
       <!-- Required for local builds by community users on master branch -->
       <id>camunda-public-repository</id>
-      <name>Camunda Platform Maven Repository</name>
+      <name>EximeeBPMS Maven Repository</name>
       <url>https://artifacts.camunda.com/artifactory/public/</url>
     </repository>
     <repository>
       <!-- Required for local builds by developers on maintainance branches -->
       <id>camunda-nexus</id>
-      <name>Camunda Nexus</name>
+      <name>EximeeBPMS Nexus</name>
       <url>https://artifacts.camunda.com/artifactory/internal</url>
     </repository>
   </repositories>
@@ -347,7 +347,7 @@
   </licenses>
 
   <organization>
-    <name>camunda services GmbH</name>
+    <name>EximeeBPMS services GmbH</name>
     <url>http://www.camunda.com</url>
   </organization>
 
@@ -356,7 +356,7 @@
   <developers>
     <developer>
       <id>camunda.org</id>
-      <name>Camunda Platform Community</name>
+      <name>EximeeBPMS Community</name>
       <organization>camunda.org</organization>
       <organizationUrl>http://camunda.org</organizationUrl>
     </developer>

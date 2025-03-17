@@ -8,7 +8,7 @@
   </parent>
 
   <artifactId>eximeebpms-commons-testing</artifactId>
-  <name>camunda Commons - Testing</name>
+  <name>EximeeBPMS Commons - Testing</name>
   <packaging>jar</packaging>
 
   <dependencies>

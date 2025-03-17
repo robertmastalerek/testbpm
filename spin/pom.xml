@@ -10,7 +10,7 @@
 
   <groupId>org.eximeebpms.spin</groupId>
   <artifactId>eximeebpms-spin-root</artifactId>
-  <name>camunda Spin - root</name>
+  <name>EximeeBPMS Spin - root</name>
   <inceptionYear>2014</inceptionYear>
   <packaging>pom</packaging>
 

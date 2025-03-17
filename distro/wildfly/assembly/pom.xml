@@ -10,7 +10,7 @@
   <artifactId>eximeebpms-wildfly-assembly</artifactId>
   <packaging>pom</packaging>
 
-  <name>Camunda Platform - Wildfly Assembly</name>
+  <name>EximeeBPMS - Wildfly Assembly</name>
 
   <description>
     Assembles the Camunda Platform and makes it ready for qa.

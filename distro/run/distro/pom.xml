@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>eximeebpms-bpm-run</artifactId>
-  <name>Camunda Platform - Run - Distribution</name>
+  <name>EximeeBPMS - Run - Distribution</name>
   <packaging>pom</packaging>
 
   <dependencies>

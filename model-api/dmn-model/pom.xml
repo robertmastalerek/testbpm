@@ -11,7 +11,7 @@
   <artifactId>eximeebpms-dmn-model</artifactId>
   <packaging>jar</packaging>
 
-  <name>Camunda Platform - DMN Model API</name>
+  <name>EximeeBPMS - DMN Model API</name>
   <inceptionYear>2015</inceptionYear>
   <properties>
     <camunda.artifact>org.camunda.bpm.model.dmn</camunda.artifact>

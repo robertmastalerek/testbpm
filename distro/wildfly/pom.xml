@@ -12,7 +12,7 @@
   <artifactId>eximeebpms-wildfly</artifactId>
   <packaging>pom</packaging>
 
-  <name>Camunda Platform - Wildfly</name>
+  <name>EximeeBPMS - Wildfly</name>
 
   <dependencyManagement>
     <dependencies>

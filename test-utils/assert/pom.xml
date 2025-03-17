@@ -3,7 +3,7 @@
   <artifactId>eximeebpms-bpm-assert-root</artifactId>
   <packaging>pom</packaging>
 
-  <name>Camunda Platform - Assert - Root</name>
+  <name>EximeeBPMS - Assert - Root</name>
 
   <parent>
     <groupId>org.eximeebpms.bpm</groupId>

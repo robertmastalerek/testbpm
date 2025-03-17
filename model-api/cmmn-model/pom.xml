@@ -11,7 +11,7 @@
   <artifactId>eximeebpms-cmmn-model</artifactId>
   <packaging>jar</packaging>
 
-  <name>Camunda Platform - CMMN Model API</name>
+  <name>EximeeBPMS - CMMN Model API</name>
   <inceptionYear>2014</inceptionYear>
   <properties>
     <camunda.artifact>org.camunda.bpm.model.cmmn</camunda.artifact>

@@ -13,7 +13,7 @@
   <groupId>org.eximeebpms.connect</groupId>
   <artifactId>eximeebpms-connect-bom</artifactId>
   <version>0.9.0-SNAPSHOT</version>
-  <name>Camunda Platform - connect - bom</name>
+  <name>EximeeBPMS - connect - bom</name>
   <packaging>pom</packaging>
 
   <dependencyManagement>

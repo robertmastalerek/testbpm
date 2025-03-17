@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>eximeebpms-jobexecutor-ra</artifactId>
   <packaging>jar</packaging>
-  <name>Camunda Platform - Job Executor RA</name>
+  <name>EximeeBPMS - Job Executor RA</name>
 
   <parent>
     <groupId>org.eximeebpms.bpm</groupId>

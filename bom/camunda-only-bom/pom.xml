@@ -11,7 +11,7 @@
 
   <artifactId>eximeebpms-only-bom</artifactId>
   <packaging>pom</packaging>
-  <name>Camunda Platform Only - Bom</name>
+  <name>EximeeBPMS Only - Bom</name>
   <url>http://camunda.org</url>
 
   <description>Camunda Platform Only bill of material</description>
@@ -24,7 +24,7 @@
   </licenses>
 
   <organization>
-    <name>camunda services GmbH</name>
+    <name>EximeeBPMS services GmbH</name>
     <url>http://www.camunda.com</url>
   </organization>
 

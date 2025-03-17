@@ -4,7 +4,7 @@
   <artifactId>eximeebpms-dmn-junit5</artifactId>
   <packaging>jar</packaging>
 
-  <name>Camunda DMN - JUnit 5 Extension</name>
+  <name>EximeeBPMS DMN - JUnit 5 Extension</name>
 
   <parent>
     <groupId>org.eximeebpms.bpm</groupId>

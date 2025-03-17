@@ -2,7 +2,7 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <name>Camunda Platform - engine</name>
+  <name>EximeeBPMS - engine</name>
   <artifactId>eximeebpms-engine</artifactId>
 
   <parent>

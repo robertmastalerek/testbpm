@@ -11,7 +11,7 @@
 
   <artifactId>eximeebpms-bpm-quarkus-engine-parent</artifactId>
 
-  <name>Camunda Platform - Quarkus Extension - Engine - Parent</name>
+  <name>EximeeBPMS - Quarkus Extension - Engine - Parent</name>
 
   <packaging>pom</packaging>
 

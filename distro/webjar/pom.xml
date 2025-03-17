@@ -13,7 +13,7 @@
   <groupId>org.eximeebpms.bpm.webapp</groupId>
   <artifactId>eximeebpms-webapp-webjar</artifactId>
   <packaging>jar</packaging>
-  <name>Camunda Platform - webapp - webjar</name>
+  <name>EximeeBPMS - webapp - webjar</name>
 
   <properties>
     <skipTests>true</skipTests>

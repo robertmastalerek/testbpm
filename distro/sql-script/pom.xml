@@ -12,7 +12,7 @@
   <artifactId>eximeebpms-sql-scripts</artifactId>
   <packaging>jar</packaging>
 
-  <name>Camunda Platform - SQL scripts</name>
+  <name>EximeeBPMS - SQL scripts</name>
   
   <properties>
     <!-- exclude tests by default, only run in check-sql profile -->

@@ -11,7 +11,7 @@
 
   <artifactId>eximeebpms-bpm-quarkus-engine-deployment</artifactId>
 
-  <name>Camunda Platform - Quarkus Extension - Engine - Deployment</name>
+  <name>EximeeBPMS - Quarkus Extension - Engine - Deployment</name>
 
   <dependencies>
 

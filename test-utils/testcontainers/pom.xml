@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>eximeebpms-test-utils-testcontainers</artifactId>
-  <name>Camunda Test Utils - Testcontainers</name>
+  <name>EximeeBPMS Test Utils - Testcontainers</name>
   <packaging>jar</packaging>
 
   <properties>

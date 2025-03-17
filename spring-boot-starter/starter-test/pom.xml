@@ -10,7 +10,7 @@
 
   <groupId>org.eximeebpms.bpm.springboot</groupId>
   <artifactId>eximeebpms-bpm-spring-boot-starter-test</artifactId>
-  <name>Camunda Platform - Spring Boot Starter - Test</name>
+  <name>EximeeBPMS - Spring Boot Starter - Test</name>
 
   <dependencies>
 

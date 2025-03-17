@@ -4,7 +4,7 @@
   <artifactId>eximeebpms-qa-tomcat9-runtime</artifactId>
   <packaging>pom</packaging>
 
-  <name>Camunda Platform - QA Tomcat 9 Test Runtime</name>
+  <name>EximeeBPMS - QA Tomcat 9 Test Runtime</name>
 
   <parent>
     <groupId>org.eximeebpms.bpm.qa</groupId>

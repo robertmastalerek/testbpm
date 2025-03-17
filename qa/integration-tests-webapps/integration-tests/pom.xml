@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>eximeebpms-qa-integration-tests-webapps</artifactId>
-  <name>Camunda Platform - QA Integration Tests - Webapps ITs</name>
+  <name>EximeeBPMS - QA Integration Tests - Webapps ITs</name>
 
   <parent>
     <groupId>org.eximeebpms.bpm.qa</groupId>

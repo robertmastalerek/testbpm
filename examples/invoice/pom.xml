@@ -3,7 +3,7 @@
 
   <artifactId>eximeebpms-example-invoice</artifactId>
   <packaging>war</packaging>
-  <name>Camunda Platform - Example - Invoice</name>
+  <name>EximeeBPMS - Example - Invoice</name>
 
   <parent>
     <groupId>org.eximeebpms.bpm.example</groupId>

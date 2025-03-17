@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>eximeebpms-engine-feel-api</artifactId>
-  <name>camunda DMN - engine FEEL - API</name>
+  <name>EximeeBPMS DMN - engine FEEL - API</name>
   <properties>
     <camunda.artifact>org.camunda.bpm.dmn.feel.impl</camunda.artifact>
   </properties>

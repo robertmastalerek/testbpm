@@ -3,7 +3,7 @@
   <artifactId>eximeebpms-bpm-assert</artifactId>
   <packaging>jar</packaging>
 
-  <name>Camunda Platform - Assert</name>
+  <name>EximeeBPMS - Assert</name>
 
   <parent>
     <groupId>org.eximeebpms.bpm</groupId>

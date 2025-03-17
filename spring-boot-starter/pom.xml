@@ -10,7 +10,7 @@
 
   <groupId>org.eximeebpms.bpm.springboot.project</groupId>
   <artifactId>eximeebpms-bpm-spring-boot-starter-root</artifactId>
-  <name>Camunda Platform - Spring Boot Starter - Root Pom</name>
+  <name>EximeeBPMS - Spring Boot Starter - Root Pom</name>
   <inceptionYear>2015</inceptionYear>
 
   <packaging>pom</packaging>

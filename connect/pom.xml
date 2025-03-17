@@ -10,7 +10,7 @@
 
   <groupId>org.eximeebpms.connect</groupId>
   <artifactId>eximeebpms-connect-root</artifactId>
-  <name>Camunda Platform - connect - root</name>
+  <name>EximeeBPMS - connect - root</name>
   <inceptionYear>2014</inceptionYear>
   <packaging>pom</packaging>
 

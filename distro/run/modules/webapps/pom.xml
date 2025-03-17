@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>eximeebpms-bpm-run-modules-webapps</artifactId>
-  <name>Camunda Platform - Run - Module Webapps</name>
+  <name>EximeeBPMS - Run - Module Webapps</name>
   <packaging>pom</packaging>
   
   <properties>

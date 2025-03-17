@@ -3,7 +3,7 @@
 
   <artifactId>eximeebpms-ejb-client</artifactId>
   <groupId>org.eximeebpms.bpm.javaee</groupId>
-  <name>Camunda Platform - Client</name>
+  <name>EximeeBPMS - Client</name>
   <packaging>jar</packaging>
 
   <parent>

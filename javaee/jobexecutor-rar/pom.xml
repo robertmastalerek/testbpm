@@ -3,7 +3,7 @@
   <groupId>org.eximeebpms.bpm.javaee</groupId>
   <artifactId>eximeebpms-jobexecutor-rar</artifactId>
   <packaging>rar</packaging>
-  <name>Camunda Platform - Job Executor RAR</name>
+  <name>EximeeBPMS - Job Executor RAR</name>
 
   <parent>
     <groupId>org.eximeebpms.bpm</groupId>

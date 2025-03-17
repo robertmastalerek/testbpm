@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>eximeebpms-bpm-run-modules</artifactId>
-  <name>Camunda Platform - Run - Modules</name>
+  <name>EximeeBPMS - Run - Modules</name>
   <packaging>pom</packaging>
 
   <!-- define provided dependencies that will already be present in the Spring 

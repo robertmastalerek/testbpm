@@ -12,7 +12,7 @@
   <artifactId>eximeebpms-jboss</artifactId>
   <packaging>pom</packaging>
 
-  <name>Camunda Platform - JBoss</name>
+  <name>EximeeBPMS - JBoss</name>
 
   <dependencyManagement>
     <dependencies>

@@ -5,7 +5,7 @@
   <artifactId>eximeebpms-ejb-service</artifactId>
   <packaging>ejb</packaging>
 
-  <name>Camunda Platform - EJB Service</name>
+  <name>EximeeBPMS - EJB Service</name>
 
   <parent>
     <groupId>org.eximeebpms.bpm</groupId>

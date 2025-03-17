@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>eximeebpms-bpm-run-modules-rest</artifactId>
-  <name>Camunda Platform - Run - Module REST</name>
+  <name>EximeeBPMS - Run - Module REST</name>
   <packaging>pom</packaging>
   
   <properties>

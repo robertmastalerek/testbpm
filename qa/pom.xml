@@ -5,7 +5,7 @@
   <groupId>org.eximeebpms.bpm.qa</groupId>
 
   <packaging>pom</packaging>
-  <name>Camunda Platform - QA</name>
+  <name>EximeeBPMS - QA</name>
 
   <parent>
     <groupId>org.eximeebpms.bpm</groupId>

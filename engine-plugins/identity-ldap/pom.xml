@@ -4,7 +4,7 @@
   <groupId>org.eximeebpms.bpm.identity</groupId>
   <artifactId>eximeebpms-identity-ldap</artifactId>
   <packaging>jar</packaging>
-  <name>Camunda Platform - engine plugins - identity - ldap</name>
+  <name>EximeeBPMS - engine plugins - identity - ldap</name>
 
   <parent>
     <groupId>org.eximeebpms.bpm</groupId>

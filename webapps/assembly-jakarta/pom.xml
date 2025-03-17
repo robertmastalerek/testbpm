@@ -12,7 +12,7 @@
 
   <artifactId>eximeebpms-webapp-jakarta</artifactId>
   <packaging>war</packaging>
-  <name>Camunda Platform - Webapp - Assembly Jakarta</name>
+  <name>EximeeBPMS - Webapp - Assembly Jakarta</name>
 
   <properties>
     <jakarta.webapp>${project.build.directory}/generated-resources/jakarta-webapp</jakarta.webapp>

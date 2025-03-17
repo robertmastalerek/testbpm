@@ -8,7 +8,7 @@
   </parent>
 
   <artifactId>eximeebpms-commons-utils</artifactId>
-  <name>camunda Commons - Utils</name>
+  <name>EximeeBPMS Commons - Utils</name>
   <packaging>jar</packaging>
 
   <dependencies>

@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>eximeebpms-qa-ensure-clean-db</artifactId>
   <packaging>jar</packaging>
-  <name>Camunda Platform - QA - ensure clean db plugin</name>
+  <name>EximeeBPMS - QA - ensure clean db plugin</name>
   
   <parent>
     <artifactId>eximeebpms-qa</artifactId>

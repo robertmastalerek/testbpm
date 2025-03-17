@@ -10,7 +10,7 @@
 
   <groupId>org.eximeebpms.bpm.dmn</groupId>
   <artifactId>eximeebpms-engine-dmn-root</artifactId>
-  <name>camunda DMN - engine - root</name>
+  <name>EximeeBPMS DMN - engine - root</name>
   <inceptionYear>2015</inceptionYear>
   <packaging>pom</packaging>
 

@@ -12,7 +12,7 @@
 
   <groupId>org.eximeebpms.commons</groupId>
   <artifactId>eximeebpms-commons-bom</artifactId>
-  <name>camunda Commons - Bom</name>
+  <name>EximeeBPMS Commons - Bom</name>
   <packaging>pom</packaging>
 
   <dependencyManagement>

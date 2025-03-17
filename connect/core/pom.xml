@@ -8,7 +8,7 @@
   </parent>
 
   <artifactId>eximeebpms-connect-core</artifactId>
-  <name>Camunda Platform - connect - core</name>
+  <name>EximeeBPMS - connect - core</name>
 
   <dependencies>
 

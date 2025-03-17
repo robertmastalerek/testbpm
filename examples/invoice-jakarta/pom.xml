@@ -3,7 +3,7 @@
 
   <artifactId>eximeebpms-example-invoice-jakarta</artifactId>
   <packaging>war</packaging>
-  <name>Camunda Platform - Example - Invoice Jakarta</name>
+  <name>EximeeBPMS - Example - Invoice Jakarta</name>
 
   <parent>
     <groupId>org.eximeebpms.bpm.example</groupId>

@@ -10,7 +10,7 @@
   <artifactId>eximeebpms-wildfly26-subsystem</artifactId>
   <packaging>jar</packaging>
 
-  <name>Camunda Platform - Wildfly 26 Subsystem</name>
+  <name>EximeeBPMS - Wildfly 26 Subsystem</name>
 
   <dependencies>
 

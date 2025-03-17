@@ -5,7 +5,7 @@
   <artifactId>eximeebpms-qa-db-instance-migration</artifactId>
 
   <packaging>pom</packaging>
-  <name>Camunda Platform - QA - upgrade - instance migration</name>
+  <name>EximeeBPMS - QA - upgrade - instance migration</name>
 
   <parent>
     <groupId>org.eximeebpms.bpm.qa</groupId>

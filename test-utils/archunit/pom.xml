@@ -3,7 +3,7 @@
     <artifactId>eximeebpms-bpm-archunit</artifactId>
     <packaging>jar</packaging>
 
-    <name>Camunda Platform - ArchUnit</name>
+    <name>EximeeBPMS - ArchUnit</name>
 
     <parent>
         <groupId>org.eximeebpms.bpm</groupId>

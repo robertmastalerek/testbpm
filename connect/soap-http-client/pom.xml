@@ -8,7 +8,7 @@
   </parent>
 
   <artifactId>eximeebpms-connect-soap-http-client</artifactId>
-  <name>Camunda Platform - connect - soap http client</name>
+  <name>EximeeBPMS - connect - soap http client</name>
 
   <dependencies>
 

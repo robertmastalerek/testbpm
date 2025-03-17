@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>eximeebpms-engine-feel-juel</artifactId>
-  <name>camunda DMN - engine FEEL - JUEL</name>
+  <name>EximeeBPMS DMN - engine FEEL - JUEL</name>
 
   <properties>
     <camunda.artifact>org.camunda.bpm.dmn.feel.impl.juel</camunda.artifact>

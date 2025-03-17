@@ -4,7 +4,7 @@
   <artifactId>eximeebpms-qa-wildfly26-runtime</artifactId>
   <packaging>jar</packaging>
 
-  <name>Camunda Platform - QA Wildfly 26 Test Runtime</name>
+  <name>EximeeBPMS - QA Wildfly 26 Test Runtime</name>
 
   <parent>
     <groupId>org.eximeebpms.bpm.qa</groupId>

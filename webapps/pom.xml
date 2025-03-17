@@ -13,7 +13,7 @@
   <artifactId>eximeebpms-webapp-root</artifactId>
   <groupId>org.eximeebpms.bpm.webapp</groupId>
   <packaging>pom</packaging>
-  <name>Camunda Platform - Webapp - Root</name>
+  <name>EximeeBPMS - Webapp - Root</name>
 
   <properties>
     <version.jetty>9.4.31.v20200723</version.jetty>

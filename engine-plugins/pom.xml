@@ -11,7 +11,7 @@
   <artifactId>eximeebpms-engine-plugins</artifactId>
   <packaging>pom</packaging>
 
-  <name>Camunda Platform - engine plugins</name>
+  <name>EximeeBPMS - engine plugins</name>
 
   <modules>
     <module>identity-ldap</module>

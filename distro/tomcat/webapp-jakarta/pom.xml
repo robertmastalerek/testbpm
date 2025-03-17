@@ -7,7 +7,7 @@
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
-  <name>Camunda Platform - webapp - Tomcat - Jakarta</name>
+  <name>EximeeBPMS - webapp - Tomcat - Jakarta</name>
   <groupId>org.eximeebpms.bpm.webapp</groupId>
   <artifactId>eximeebpms-webapp-tomcat-jakarta</artifactId>
   <packaging>war</packaging>

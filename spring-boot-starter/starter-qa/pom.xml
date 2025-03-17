@@ -12,7 +12,7 @@
   <packaging>pom</packaging>
 
   <artifactId>eximeebpms-bpm-spring-boot-starter-qa</artifactId>
-  <name>Camunda Platform - Spring Boot Starter - QA - Root Pom</name>
+  <name>EximeeBPMS - Spring Boot Starter - QA - Root Pom</name>
 
   <profiles>  
     <profile>

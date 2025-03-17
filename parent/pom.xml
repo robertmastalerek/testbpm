@@ -9,7 +9,7 @@
   </parent>
 
   <artifactId>eximeebpms-parent</artifactId>
-  <name>Camunda Platform - Parent Pom</name>
+  <name>EximeeBPMS - Parent Pom</name>
   <inceptionYear>2013</inceptionYear>
   <packaging>pom</packaging>
 
@@ -355,7 +355,7 @@
   </licenses>
 
   <organization>
-    <name>camunda services GmbH</name>
+    <name>EximeeBPMS services GmbH</name>
     <url>http://www.camunda.com</url>
   </organization>
 

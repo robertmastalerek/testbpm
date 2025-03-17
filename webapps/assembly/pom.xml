@@ -12,7 +12,7 @@
 
   <artifactId>eximeebpms-webapp</artifactId>
   <packaging>war</packaging>
-  <name>Camunda Platform - Webapp - Assembly</name>
+  <name>EximeeBPMS - Webapp - Assembly</name>
   <inceptionYear>2014</inceptionYear>
 
   <properties>
