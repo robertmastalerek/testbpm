@@ -24,8 +24,8 @@ Camunda Platform Assert works with multiple Java versions (1.8+). All of this is
 
 ```xml  
 <dependency>
-    <groupId>org.camunda.bpm</groupId>
-    <artifactId>camunda-bpm-assert</artifactId>
+    <groupId>org.eximeebpms.bpm</groupId>
+    <artifactId>eximeebpms-bpm-assert</artifactId>
     <version>${camunda.platform.version}</version>
     <scope>test</scope>
 </dependency>

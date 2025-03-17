@@ -29,7 +29,7 @@
 
         <include>com.h2database:h2:jar</include>
 
-        <include>org.camunda.bpm:camunda-engine:jar</include>
+        <include>org.eximeebpms.bpm:eximeebpms-engine:jar</include>
         <include>org.camunda.bpm.identity:camunda-identity-ldap:jar</include>
 
         <include>org.mybatis:mybatis:jar:*</include>
@@ -49,7 +49,7 @@
         <include>com.ibm.icu:icu4j:jar:*</include>
         <include>org.slf4j:slf4j-api:jar:*</include>
 
-        <include>org.camunda.bpm:camunda-engine-plugin-*:jar</include>
+        <include>org.eximeebpms.bpm:eximeebpms-engine-plugin-*:jar</include>
         <include>org.camunda.spin:camunda-spin-core*:jar</include>
         <include>org.camunda.spin:camunda-spin-dataformat-all*:jar</include>
         <include>org.camunda.connect:*:jar</include>
@@ -72,7 +72,7 @@
 
         <include>com.h2database:h2:jar</include>
 
-        <include>org.camunda.bpm:camunda-engine:jar</include>
+        <include>org.eximeebpms.bpm:eximeebpms-engine:jar</include>
         <include>org.camunda.bpm.identity:camunda-identity-ldap:jar</include>
 
         <include>org.mybatis:mybatis:jar:*</include>
@@ -92,7 +92,7 @@
         <include>com.ibm.icu:icu4j:jar:*</include>
         <include>org.slf4j:slf4j-api:jar:*</include>
 
-        <include>org.camunda.bpm:camunda-engine-plugin-*:jar</include>
+        <include>org.eximeebpms.bpm:eximeebpms-engine-plugin-*:jar</include>
         <include>org.camunda.spin:camunda-spin-core*:jar</include>
         <include>org.camunda.spin:camunda-spin-dataformat-all*:jar</include>
         <include>org.camunda.connect:*:jar</include>

@@ -4,15 +4,15 @@
   <!-- HEADS-UP: Do not use camunda-parent as parent,
   it would introduce a cyclic dependency to this bom -->
   <parent>
-    <groupId>org.camunda.bpm</groupId>
-    <artifactId>camunda-root</artifactId>
-    <version>7.23.0-SNAPSHOT</version>
+    <groupId>org.eximeebpms.bpm</groupId>
+    <artifactId>eximeebpms-root</artifactId>
+    <version>0.9.0-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
-  <groupId>org.camunda.connect</groupId>
-  <artifactId>camunda-connect-bom</artifactId>
-  <version>7.23.0-SNAPSHOT</version>
+  <groupId>org.eximeebpms.connect</groupId>
+  <artifactId>eximeebpms-connect-bom</artifactId>
+  <version>0.9.0-SNAPSHOT</version>
   <name>Camunda Platform - connect - bom</name>
   <packaging>pom</packaging>
 
@@ -20,26 +20,26 @@
     <dependencies>
 
       <dependency>
-        <groupId>org.camunda.connect</groupId>
-        <artifactId>camunda-connect-core</artifactId>
+        <groupId>org.eximeebpms.connect</groupId>
+        <artifactId>eximeebpms-connect-core</artifactId>
         <version>${project.version}</version>
       </dependency>
 
       <dependency>
-        <groupId>org.camunda.connect</groupId>
-        <artifactId>camunda-connect-http-client</artifactId>
+        <groupId>org.eximeebpms.connect</groupId>
+        <artifactId>eximeebpms-connect-http-client</artifactId>
         <version>${project.version}</version>
       </dependency>
 
       <dependency>
-        <groupId>org.camunda.connect</groupId>
-        <artifactId>camunda-connect-soap-http-client</artifactId>
+        <groupId>org.eximeebpms.connect</groupId>
+        <artifactId>eximeebpms-connect-soap-http-client</artifactId>
         <version>${project.version}</version>
       </dependency>
 
       <dependency>
-        <groupId>org.camunda.connect</groupId>
-        <artifactId>camunda-connect-connectors-all</artifactId>
+        <groupId>org.eximeebpms.connect</groupId>
+        <artifactId>eximeebpms-connect-connectors-all</artifactId>
         <version>${project.version}</version>
       </dependency>
 

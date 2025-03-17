@@ -105,7 +105,7 @@ public abstract class AbstractDeploymentHelper {
           .loadPomFromFile("pom.xml")
           .addDependencies(
               MavenDependencies.createDependency(engineSpringArtifactName, ScopeType.COMPILE, false,
-                  MavenDependencies.createExclusion("org.camunda.bpm:camunda-engine")),
+                  MavenDependencies.createExclusion("org.eximeebpms.bpm:eximeebpms-engine")),
                   MavenDependencies.createDependency("org.springframework:spring-context", ScopeType.COMPILE, false),
                   MavenDependencies.createDependency("org.springframework:spring-jdbc", ScopeType.COMPILE, false),
                   MavenDependencies.createDependency("org.springframework:spring-tx", ScopeType.COMPILE, false),

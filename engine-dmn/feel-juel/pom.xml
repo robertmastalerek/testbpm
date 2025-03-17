@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.camunda.bpm.dmn</groupId>
-    <artifactId>camunda-engine-dmn-root</artifactId>
-    <version>7.23.0-SNAPSHOT</version>
+    <groupId>org.eximeebpms.bpm.dmn</groupId>
+    <artifactId>eximeebpms-engine-dmn-root</artifactId>
+    <version>0.9.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>camunda-engine-feel-juel</artifactId>
+  <artifactId>eximeebpms-engine-feel-juel</artifactId>
   <name>camunda DMN - engine FEEL - JUEL</name>
 
   <properties>
@@ -16,23 +16,23 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>org.camunda.bpm.dmn</groupId>
-      <artifactId>camunda-engine-feel-api</artifactId>
+      <groupId>org.eximeebpms.bpm.dmn</groupId>
+      <artifactId>eximeebpms-engine-feel-api</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>org.camunda.commons</groupId>
-      <artifactId>camunda-commons-logging</artifactId>
+      <groupId>org.eximeebpms.commons</groupId>
+      <artifactId>eximeebpms-commons-logging</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>org.camunda.commons</groupId>
-      <artifactId>camunda-commons-typed-values</artifactId>
+      <groupId>org.eximeebpms.commons</groupId>
+      <artifactId>eximeebpms-commons-typed-values</artifactId>
     </dependency>
 
     <dependency>
-      <groupId>org.camunda.bpm.juel</groupId>
-      <artifactId>camunda-juel</artifactId>
+      <groupId>org.eximeebpms.bpm.juel</groupId>
+      <artifactId>eximeebpms-juel</artifactId>
     </dependency>
 
     <dependency>
