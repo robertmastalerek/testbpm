@@ -49,13 +49,7 @@ pipeline {
                skipTests = "-DskipTests "
             }
 
-            withVault([vaultSecrets: [
-                [
-                    path        : 'secret/products/cambpm/ci/hero-devs',
-                    secretValues: [
-                        [envVar: 'HERODEVS_REGISTRY', vaultKey: 'registry'],
-                        [envVar: 'HERODEVS_AUTH_TOKEN', vaultKey: 'authToken']]
-                ]]]) {
+            withVault([vaultSecrets: []]) {
               cambpmRunMaven('.',
                   'clean source:jar deploy source:test-jar com.mycila:license-maven-plugin:check -Pdistro,distro-ce,distro-wildfly,distro-webjar,h2-in-memory -DaltStagingDirectory=${WORKSPACE}/staging -DskipRemoteStaging=true '+ skipTests,
                   withCatch: false,
