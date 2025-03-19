@@ -31,7 +31,7 @@
   <!-- Prevent memory leaks due to use of particular java/javax APIs-->
   <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener" />
   
-  <Listener classname="org.eximeebpms.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap" />
+  <Listener className="org.eximeebpms.bpm.container.impl.tomcat.TomcatBpmPlatformBootstrap" />
   
   <Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener" />
   <Listener className="org.apache.catalina.core.ThreadLocalLeakPreventionListener" />
