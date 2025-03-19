@@ -73,7 +73,7 @@
                 </goals>
                 <phase>process-test-classes</phase>
                 <configuration>
-                  <mainClass>org.camunda.bpm.qa.rolling.update.CreateOldEngineMain</mainClass>
+                  <mainClass>org.eximeebpms.bpm.qa.rolling.update.CreateOldEngineMain</mainClass>
                   <includePluginDependencies>false</includePluginDependencies>
                 </configuration>
               </execution>

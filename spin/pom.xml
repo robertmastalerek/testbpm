@@ -146,7 +146,7 @@
           <version>3.5.0</version>
           <configuration>
             <instructions>
-              <Export-Package>org.camunda.spin*</Export-Package>
+              <Export-Package>org.eximeebpms.spin*</Export-Package>
             </instructions>
           </configuration>
         </plugin>
@@ -189,9 +189,9 @@
   </profiles>
 
   <scm>
-    <url>https://github.com/camunda/camunda-bpm-platform</url>
-    <connection>scm:git:git@github.com:camunda/camunda-bpm-platform.git</connection>
-    <developerConnection>scm:git:git@github.com:camunda/camunda-bpm-platform.git</developerConnection>
+    <url>https://github.com/EximeeBPMS/eximeebpms</url>
+    <connection>scm:git:git@github.com:EximeeBPMS/eximeebpms.git</connection>
+    <developerConnection>scm:git:git@github.com:EximeeBPMS/eximeebpms.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 

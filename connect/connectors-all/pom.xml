@@ -47,8 +47,8 @@
               <promoteTransitiveDependencies>true</promoteTransitiveDependencies>
               <artifactSet>
                 <excludes>
-                  <exclude>org.camunda.commons:*</exclude>
-                  <exclude>org.camunda.connect:camunda-connect-core</exclude>
+                  <exclude>org.eximeebpms.commons:*</exclude>
+                  <exclude>org.eximeebpms.connect:eximeebpms-connect-core</exclude>
                   <exclude>org.slf4j:*</exclude>
                 </excludes>
               </artifactSet>
@@ -73,7 +73,7 @@
           <includeDependencySources>true</includeDependencySources>
           <includeTransitiveDependencySources>true</includeTransitiveDependencySources>
           <dependencySourceIncludes>
-            <include>org.camunda.connect:*</include>
+            <include>org.eximeebpms.connect:*</include>
           </dependencySourceIncludes>
         </configuration>
       </plugin>
@@ -86,7 +86,7 @@
             <Import-Package>
               !connectjar*,
               javax.*;resolution:=optional,
-              org.camunda.commons.logging
+              org.eximeebpms.commons.logging
             </Import-Package>
             <Bundle-ClassPath>.</Bundle-ClassPath>
             <Embed-Dependency>*;inline=true</Embed-Dependency>

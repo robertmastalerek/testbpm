@@ -14,8 +14,8 @@
   <name>EximeeBPMS - Bom Root</name>
 
   <modules>
-    <module>camunda-only-bom</module>
-    <module>camunda-bom</module>
+    <module>eximeebpms-only-bom</module>
+    <module>eximeebpms-bom</module>
   </modules>
 
 </project>

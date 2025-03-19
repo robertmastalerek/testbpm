@@ -10,7 +10,7 @@
   <artifactId>eximeebpms-engine-feel-scala</artifactId>
   <name>EximeeBPMS DMN - engine FEEL - SCALA</name>
   <properties>
-    <camunda.artifact>org.camunda.bpm.dmn.feel.impl.scala</camunda.artifact>
+    <eximeebpms.artifact>org.eximeebpms.bpm.dmn.feel.impl.scala</eximeebpms.artifact>
   </properties>
   <dependencies>
 

@@ -12,7 +12,7 @@
   <groupId>org.eximeebpms.bpm.run</groupId>
   <artifactId>eximeebpms-bpm-run-root</artifactId>
   <name>EximeeBPMS - Run - Root</name>
-  <description>This is the root of Camunda Platform Run</description>
+  <description>This is the root of EximeeBPMS Run</description>
   <packaging>pom</packaging>
 
   <dependencyManagement>
@@ -106,7 +106,7 @@
       </modules>
     </profile>
     <profile>
-      <id>integration-test-camunda-run</id>
+      <id>integration-test-eximeebpms-run</id>
       <modules>
         <module>qa</module>
       </modules>

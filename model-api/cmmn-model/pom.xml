@@ -14,11 +14,11 @@
   <name>EximeeBPMS - CMMN Model API</name>
   <inceptionYear>2014</inceptionYear>
   <properties>
-    <camunda.artifact>org.camunda.bpm.model.cmmn</camunda.artifact>
-    <camunda.osgi.export>
-      !org.camunda.bpm.model.cmmn.schema.*,
-      ${camunda.osgi.export.pkg};${camunda.osgi.version};-noimport:=true
-    </camunda.osgi.export>
+    <eximeebpms.artifact>org.eximeebpms.bpm.model.cmmn</eximeebpms.artifact>
+    <eximeebpms.osgi.export>
+      !org.eximeebpms.bpm.model.cmmn.schema.*,
+      ${eximeebpms.osgi.export.pkg};${eximeebpms.osgi.version};-noimport:=true
+    </eximeebpms.osgi.export>
   </properties>
   <dependencies>
 
@@ -93,10 +93,10 @@
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>clirr-maven-plugin</artifactId>
             <configuration>
-              <comparisonVersion>${camunda.version.old}</comparisonVersion>
+              <comparisonVersion>${eximeebpms.version.old}</comparisonVersion>
               <logResults>true</logResults>
               <excludes>
-                <exclude>org/camunda/bpm/model/cmmn/impl/**</exclude>
+                <exclude>org/eximeebpms/bpm/model/cmmn/impl/**</exclude>
               </excludes>
             </configuration>
             <executions>

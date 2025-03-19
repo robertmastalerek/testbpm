@@ -121,7 +121,7 @@
       </exclusions>
     </dependency>
 
-    <!-- camunda -->
+    <!-- eximeebpms -->
     <dependency>
       <groupId>org.eximeebpms.bpm</groupId>
       <artifactId>eximeebpms-engine</artifactId>
@@ -201,7 +201,7 @@
     </dependency>
 
     <!-- explicit Spring dependencies for applications
-      that pack camunda-engine-spring -->
+      that pack eximeebpms-engine-spring -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
@@ -274,9 +274,9 @@
             <configuration>
               <forceCreation>true</forceCreation>
               <excludes>
-                <exclude>org/camunda/bpm/integrationtest/util/TestConstants*</exclude>
-                <exclude>org/camunda/bpm/integrationtest/util/TestContainer*</exclude>
-                <exclude>org/camunda/bpm/integrationtest/util/TestProcessApplication*</exclude>
+                <exclude>org/eximeebpms/bpm/integrationtest/util/TestConstants*</exclude>
+                <exclude>org/eximeebpms/bpm/integrationtest/util/TestContainer*</exclude>
+                <exclude>org/eximeebpms/bpm/integrationtest/util/TestProcessApplication*</exclude>
               </excludes>
             </configuration>
           </execution>
@@ -708,13 +708,13 @@
                 <configuration>
                   <srcFiles>
                     <!-- try dropping the DB if it exists. -->
-                    <srcFile>${project.build.directory}/sql-scripts/engine/org/camunda/bpm/engine/db/drop/activiti.${database.type}.drop.decision.engine.sql</srcFile>
-                    <srcFile>${project.build.directory}/sql-scripts/engine/org/camunda/bpm/engine/db/drop/activiti.${database.type}.drop.case.engine.sql</srcFile>
-                    <srcFile>${project.build.directory}/sql-scripts/engine/org/camunda/bpm/engine/db/drop/activiti.${database.type}.drop.engine.sql</srcFile>
-                    <srcFile>${project.build.directory}/sql-scripts/engine/org/camunda/bpm/engine/db/drop/activiti.${database.type}.drop.identity.sql</srcFile>
-                    <srcFile>${project.build.directory}/sql-scripts/engine/org/camunda/bpm/engine/db/drop/activiti.${database.type}.drop.decision.history.sql</srcFile>
-                    <srcFile>${project.build.directory}/sql-scripts/engine/org/camunda/bpm/engine/db/drop/activiti.${database.type}.drop.case.history.sql</srcFile>
-                    <srcFile>${project.build.directory}/sql-scripts/engine/org/camunda/bpm/engine/db/drop/activiti.${database.type}.drop.history.sql</srcFile>
+                    <srcFile>${project.build.directory}/sql-scripts/engine/org/eximeebpms/bpm/engine/db/drop/activiti.${database.type}.drop.decision.engine.sql</srcFile>
+                    <srcFile>${project.build.directory}/sql-scripts/engine/org/eximeebpms/bpm/engine/db/drop/activiti.${database.type}.drop.case.engine.sql</srcFile>
+                    <srcFile>${project.build.directory}/sql-scripts/engine/org/eximeebpms/bpm/engine/db/drop/activiti.${database.type}.drop.engine.sql</srcFile>
+                    <srcFile>${project.build.directory}/sql-scripts/engine/org/eximeebpms/bpm/engine/db/drop/activiti.${database.type}.drop.identity.sql</srcFile>
+                    <srcFile>${project.build.directory}/sql-scripts/engine/org/eximeebpms/bpm/engine/db/drop/activiti.${database.type}.drop.decision.history.sql</srcFile>
+                    <srcFile>${project.build.directory}/sql-scripts/engine/org/eximeebpms/bpm/engine/db/drop/activiti.${database.type}.drop.case.history.sql</srcFile>
+                    <srcFile>${project.build.directory}/sql-scripts/engine/org/eximeebpms/bpm/engine/db/drop/activiti.${database.type}.drop.history.sql</srcFile>
                   </srcFiles>
                   <autocommit>true</autocommit>
                   <onError>continue</onError>

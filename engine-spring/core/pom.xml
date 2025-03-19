@@ -187,7 +187,7 @@
               <forceCreation>true</forceCreation>
               <excludes>
                 <!-- this is re-defined in the consuming artifacts -->
-                <exclude>META-INF/services/org.camunda.bpm.engine.spring.test.SpringTestHelper</exclude>
+                <exclude>META-INF/services/org.eximeebpms.bpm.engine.spring.test.SpringTestHelper</exclude>
               </excludes>
             </configuration>
           </execution>

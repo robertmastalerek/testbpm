@@ -70,7 +70,7 @@
               <descriptors>
                 <descriptor>assembly.xml</descriptor>
               </descriptors>
-              <finalName>camunda-bpm-tomcat-${project.version}</finalName>
+              <finalName>eximeebpms-bpm-tomcat-${project.version}</finalName>
               <attach>true</attach>
               <appendAssemblyId>false</appendAssemblyId>
               <outputDirectory>target/</outputDirectory>

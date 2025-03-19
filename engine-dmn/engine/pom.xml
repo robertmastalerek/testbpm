@@ -11,10 +11,10 @@
   <artifactId>eximeebpms-engine-dmn</artifactId>
   <name>EximeeBPMS DMN - engine</name>
   <properties>
-    <camunda.artifact>org.camunda.bpm.dmn.engine</camunda.artifact>
-    <camunda.osgi.import.additional>
+    <eximeebpms.artifact>org.eximeebpms.bpm.dmn.engine</eximeebpms.artifact>
+    <eximeebpms.osgi.import.additional>
       org.junit.*;resolution:=optional
-    </camunda.osgi.import.additional>
+    </eximeebpms.osgi.import.additional>
   </properties>
   <dependencies>
     <dependency>
@@ -154,10 +154,10 @@
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>clirr-maven-plugin</artifactId>
             <configuration>
-              <comparisonVersion>${camunda.version.old}</comparisonVersion>
+              <comparisonVersion>${eximeebpms.version.old}</comparisonVersion>
               <logResults>true</logResults>
               <excludes>
-                <exclude>org/camunda/bpm/dmn/engine/impl/**</exclude>
+                <exclude>org/eximeebpms/bpm/dmn/engine/impl/**</exclude>
               </excludes>
             </configuration>
             <executions>

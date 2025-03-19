@@ -30,7 +30,7 @@
     <version.liquibase>4.8.0</version.liquibase>
 
     <!-- needed for sql script and backward compatibility checks -->
-    <camunda.version.old>7.22.0</camunda.version.old>
+    <eximeebpms.version.old>7.22.0</eximeebpms.version.old>
 
     <!-- Testcontainers JDBC URL parameters. By default, an empty string -->
     <database.tc.params />
@@ -152,7 +152,7 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <database.url>jdbc:h2:mem:camunda;DB_CLOSE_DELAY=1000;LOCK_TIMEOUT=10000</database.url>
+        <database.url>jdbc:h2:mem:eximeebpms;DB_CLOSE_DELAY=1000;LOCK_TIMEOUT=10000</database.url>
         <database.driver>org.h2.Driver</database.driver>
         <database.username>sa</database.username>
         <database.password />

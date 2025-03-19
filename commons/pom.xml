@@ -80,7 +80,7 @@
           <version>${maven-bundle-plugin.version}</version>
           <configuration>
             <instructions>
-              <Export-Package>org.camunda*</Export-Package>
+              <Export-Package>org.eximeebpms*</Export-Package>
             </instructions>
           </configuration>
           <executions>
@@ -132,9 +132,9 @@
   </profiles>
 
   <scm>
-    <url>https://github.com/camunda/camunda-bpm-platform</url>
-    <connection>scm:git:git@github.com:camunda/camunda-bpm-platform.git</connection>
-    <developerConnection>scm:git:git@github.com:camunda/camunda-bpm-platform.git</developerConnection>
+    <url>https://github.com/EximeeBPMS/eximeebpms</url>
+    <connection>scm:git:git@github.com:EximeeBPMS/eximeebpms.git</connection>
+    <developerConnection>scm:git:git@github.com:EximeeBPMS/eximeebpms.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 

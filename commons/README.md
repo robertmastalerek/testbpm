@@ -1,20 +1,20 @@
-# camunda commons
+# eximeebpms commons
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.camunda.commons/camunda-commons-bom/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.camunda.commons/camunda-commons-bom)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.eximeebpms.commons/camunda-commons-bom/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.eximeebpms.commons/camunda-commons-bom)
 
 
 camunda commons is a collection of shared libraries used by camunda open source projects.
 
 ## List of libraries
 
-* [camunda commons logging][logging]
-* [camunda commons utils][utils]
-* [camunda-bpm-platform][typed-values]
+* [eximeebpms commons logging][logging]
+* [eximeebpms commons utils][utils]
+* [eximeebpms-bpm-platform][typed-values]
 
 
 ## Getting started
 
-If your project is a maven project, start by importing the `camunda-commons-bom`.
+If your project is a maven project, start by importing the `eximeebpms-commons-bom`.
 This will ensure that your project uses all commons libraries in the same version:
 
 ```xml

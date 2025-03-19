@@ -1,9 +1,9 @@
 server:
   ssl:
     key-store: classpath:keystore.p12
-    key-store-password: camunda
+    key-store-password: eximeebpms
     key-store-type: pkcs12
-    key-alias: camunda
-    key-password: camunda
+    key-alias: eximeebpms
+    key-password: eximeebpms
   port: 8443
 spring.http.client.factory: simple

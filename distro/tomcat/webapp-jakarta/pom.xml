@@ -36,7 +36,7 @@
   </dependencies>
 
   <build>
-    <finalName>camunda-webapp</finalName>
+    <finalName>eximeebpms-webapp</finalName>
 
     <plugins>
       <plugin>

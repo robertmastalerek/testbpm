@@ -347,7 +347,7 @@
     "FILTER": "Filter",
     "FILTERS": "Filters",
     "FIRST_LOGIN_HEADING": "Welcome to Camunda",
-    "FIRST_LOGIN_INFO": "It looks like this is your first time using the webapps. Check out the <a href=\"/camunda-welcome\">Camunda Welcome Page</a> for a quick overview.",
+    "FIRST_LOGIN_INFO": "It looks like this is your first time using the webapps. Check out the <a href=\"/eximeebpms-welcome\">Camunda Welcome Page</a> for a quick overview.",
     "FORM_FAILURE": "Form failure:",
     "INTEGER": "Integer",
     "LOADING": "Loading…",

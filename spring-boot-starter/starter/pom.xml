@@ -28,7 +28,7 @@
       <artifactId>eximeebpms-engine-spring-6</artifactId>
     </dependency>
 
-    <!-- Spring dependencies required by camunda-engine-spring -->
+    <!-- Spring dependencies required by eximeebpms-engine-spring -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>

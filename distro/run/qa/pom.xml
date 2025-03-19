@@ -86,7 +86,7 @@
       </modules>
     </profile>
     <profile>
-      <id>integration-test-camunda-run</id>
+      <id>integration-test-eximeebpms-run</id>
       <modules>
         <module>example-plugin</module>
         <module>integration-tests</module>

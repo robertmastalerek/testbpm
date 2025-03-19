@@ -21,7 +21,7 @@
     <version.chromedriver>112.0.5615.49</version.chromedriver>
 
     <http.port>58080</http.port>
-    <http.ctx-path.webapp>camunda/</http.ctx-path.webapp>
+    <http.ctx-path.webapp>eximeebpms/</http.ctx-path.webapp>
     <http.ctx-path.rest>engine-rest/</http.ctx-path.rest>
   </properties>
 
@@ -127,7 +127,7 @@
             <artifactId>spring-boot-maven-plugin</artifactId>
             <version>${version.spring-boot}</version>
             <configuration>
-              <mainClass>org.camunda.bpm.qa.Application</mainClass>
+              <mainClass>org.eximeebpms.bpm.qa.Application</mainClass>
             </configuration>
             <executions>
               <execution>
@@ -150,7 +150,7 @@
             <version>3.0.0-M3</version>
             <configuration>
               <dependenciesToScan>
-                <dependency>org.camunda.bpm.qa:camunda-qa-integration-tests-webapps</dependency>
+                <dependency>org.eximeebpms.bpm.qa:eximeebpms-qa-integration-tests-webapps</dependency>
               </dependenciesToScan>
               <skipTests>false</skipTests>
             </configuration>

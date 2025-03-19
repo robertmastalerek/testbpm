@@ -69,12 +69,12 @@ Next, reference a DMN decision from a BPMN Business Rule Task:
 
 ```xml
 <bpmn:businessRuleTask id="assignApprover"
-  camunda:decisionRef="invoice-assign-approver"
-  camunda:resultVariable="approverGroups"
+  eximeebpms:decisionRef="invoice-assign-approver"
+  eximeebpms:resultVariable="approverGroups"
   name="Assign Approver Group(s)">
 </bpmn:businessRuleTask>
 ```
-The `camunda:decisionRef` attribute references the id of the decision in the DMN file:
+The `eximeebpms:decisionRef` attribute references the id of the decision in the DMN file:
 
 ```xml
 <dmn:decision id="invoice-assign-approver" name="Assign Approver">

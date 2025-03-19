@@ -13,7 +13,7 @@
   <name>EximeeBPMS - Wildfly Assembly</name>
 
   <description>
-    Assembles the Camunda Platform and makes it ready for qa.
+    Assembles the EximeeBPMS and makes it ready for qa.
     The assembly is installed to maven later in the reactor, if the integration tests pass successfully
   </description>
   
@@ -115,7 +115,7 @@
     </dependency>
 
     <dependency>
-      <!-- this dependency is to make sure that we are executed after camunda-modules 
+      <!-- this dependency is to make sure that we are executed after eximeebpms-modules
         in the reactor -->
       <groupId>org.eximeebpms.bpm.wildfly</groupId>
       <artifactId>eximeebpms-wildfly-modules</artifactId>
