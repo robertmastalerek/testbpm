@@ -42,7 +42,7 @@ public class FoxFailedJobParseListenerTest extends PluggableProcessEngineTest {
     checkFoxFailedJobConfig(userTask);
   }
 
-  @Deployment(resources = { "org/eximeebpms/bpm/engine/test/bpmn/parse/eximeebpmsFailedJobParseListenerTest.testUserTask.bpmn20.xml" })
+  @Deployment(resources = { "org/eximeebpms/bpm/engine/test/bpmn/parse/CamundaFailedJobParseListenerTest.testUserTask.bpmn20.xml" })
   @Test
   public void testUserTaskParseFailedJobRetryTimeCycleInActivitiNamespace() {
     ProcessInstance pi = runtimeService.startProcessInstanceByKey("asyncUserTaskFailedJobRetryTimeCycle");

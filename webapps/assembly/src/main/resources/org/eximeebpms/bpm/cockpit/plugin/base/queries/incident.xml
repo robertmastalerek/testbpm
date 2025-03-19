@@ -30,14 +30,14 @@
     <result property="annotation" column="ANNOTATION_" jdbcType="VARCHAR" />
   </resultMap>
 
-  <select id="selectIncidentWithCauseAndRootCauseIncidentsCount" parametertype="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.IncidentQueryDto"
+  <select id="selectIncidentWithCauseAndRootCauseIncidentsCount" parameterType="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.IncidentQueryDto"
            resultType="long">
     ${countDistinctBeforeStart} RES.ID_ ${countDistinctBeforeEnd}
     <include refid="selectIncidents" />
     ${countDistinctAfterEnd}
   </select>
 
-  <select id="selectIncidentWithCauseAndRootCauseIncidents" parametertype="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.IncidentQueryDto"
+  <select id="selectIncidentWithCauseAndRootCauseIncidents" parameterType="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.IncidentQueryDto"
           resultMap="incidentResultMap">
     ${limitBefore}
     select ${distinct} RES.* ${limitBetween}

@@ -11,7 +11,7 @@
     <serviceTask id="sendMail" eximeebpms:type="mail">
       <extensionElements>
         <eximeebpms:field name="to">
-          <eximeebpms:string>kermit@camunda.org</eximeebpms:string>
+          <eximeebpms:string>kermit@eximeebpms.org</eximeebpms:string>
         </eximeebpms:field>
         <eximeebpms:field name="subject">
           <eximeebpms:string>Hello world</eximeebpms:string>
@@ -20,10 +20,10 @@
           <eximeebpms:string>This is the content</eximeebpms:string>
         </eximeebpms:field>
         <eximeebpms:field name="cc">
-          <eximeebpms:string>fozzie@camunda.org</eximeebpms:string>
+          <eximeebpms:string>fozzie@eximeebpms.org</eximeebpms:string>
         </eximeebpms:field>
         <eximeebpms:field name="bcc">
-          <eximeebpms:string>mispiggy@camunda.org</eximeebpms:string>
+          <eximeebpms:string>mispiggy@eximeebpms.org</eximeebpms:string>
         </eximeebpms:field>
       </extensionElements>
     </serviceTask>

@@ -54,8 +54,8 @@ public class EmailSendTaskTest extends EmailTestCase {
     assertEquals(1, messages.size());
 
     WiserMessage message = messages.get(0);
-    assertEmailSend(message, false, "Hello Kermit!", "This a text only e-mail.", "camunda@localhost",
-            Arrays.asList("kermit@camunda.org"), null);
+    assertEmailSend(message, false, "Hello Kermit!", "This a text only e-mail.", "eximeebpms@localhost",
+            Arrays.asList("kermit@eximeebpms.org"), null);
   }
 
   @Deployment
@@ -74,9 +74,9 @@ public class EmailSendTaskTest extends EmailTestCase {
     }
     Collections.sort(recipients);
 
-    assertEquals("fozzie@camunda.org", recipients.get(0));
-    assertEquals("kermit@camunda.org", recipients.get(1));
-    assertEquals("mispiggy@camunda.org", recipients.get(2));
+    assertEquals("fozzie@eximeebpms.org", recipients.get(0));
+    assertEquals("kermit@eximeebpms.org", recipients.get(1));
+    assertEquals("mispiggy@eximeebpms.org", recipients.get(2));
   }
 
   @Deployment
@@ -110,8 +110,8 @@ public class EmailSendTaskTest extends EmailTestCase {
     runtimeService.startProcessInstanceByKey("ccAndBcc");
 
     List<WiserMessage> messages = wiser.getMessages();
-    assertEmailSend(messages.get(0), false, "Hello world", "This is the content", "camunda@localhost",
-            Arrays.asList("kermit@camunda.org"), Arrays.asList("fozzie@camunda.org"));
+    assertEmailSend(messages.get(0), false, "Hello world", "This is the content", "eximeebpms@localhost",
+            Arrays.asList("kermit@eximeebpms.org"), Arrays.asList("fozzie@eximeebpms.org"));
 
     // Bcc is not stored in the header (obviously)
     // so the only way to verify the bcc, is that there are three messages send.
@@ -125,7 +125,7 @@ public class EmailSendTaskTest extends EmailTestCase {
 
     List<WiserMessage> messages = wiser.getMessages();
     assertEquals(1, messages.size());
-    assertEmailSend(messages.get(0), true, "Test", "Mr. <b>Kermit</b>", "camunda@localhost", Arrays.asList("kermit@camunda.org"), null);
+    assertEmailSend(messages.get(0), true, "Test", "Mr. <b>Kermit</b>", "eximeebpms@localhost", Arrays.asList("kermit@eximeebpms.org"), null);
   }
 
   @Deployment

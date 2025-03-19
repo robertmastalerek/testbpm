@@ -36,7 +36,7 @@
   </resultMap>
 
   <select id="selectPDStatistics" resultMap="processDefinitionStatisticsMap"
-          parametertype="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.ProcessDefinitionStatisticsQueryDto">
+          parameterType="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.ProcessDefinitionStatisticsQueryDto">
     ${limitBefore}
     select ${distinct} RES.*
     ${limitBetween}
@@ -46,7 +46,7 @@
   </select>
 
   <select id="selectPDStatisticsCount" resultType="long"
-          parametertype="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.ProcessDefinitionStatisticsQueryDto">
+          parameterType="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.ProcessDefinitionStatisticsQueryDto">
     ${countDistinctBeforeStart} RES.ID_ ${countDistinctBeforeEnd}
     <include refid="selectPDStatisticsByQueryCriteriaSql"/>
     ${countDistinctAfterEnd}
@@ -159,7 +159,7 @@
     from ${prefix}ACT_RE_PROCDEF procdef
   </select>
 
-  <select id="selectCalledProcessDefinitions" parametertype="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.ProcessDefinitionQueryDto"
+  <select id="selectCalledProcessDefinitions" parameterType="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.ProcessDefinitionQueryDto"
           resultMap="calledProcessDefinitionMap">
     select distinct RES.ID_, RES.KEY_, RES.NAME_, RES.VERSION_, EXEC2.ACT_ID_
     <include refid="selectCalledProcesses"/>

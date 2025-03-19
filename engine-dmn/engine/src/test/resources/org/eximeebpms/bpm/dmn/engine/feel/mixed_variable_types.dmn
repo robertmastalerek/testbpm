@@ -23,7 +23,7 @@
       <output id="output" name="output" />
       <rule id="stringRule">
         <inputEntry id="stringInput" expressionLanguage="feel">
-          <text>"camunda"</text>
+          <text>"eximeebpms"</text>
         </inputEntry>
         <inputEntry id="numberInput" expressionLanguage="feel">
           <text>>= 12</text>

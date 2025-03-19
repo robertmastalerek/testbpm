@@ -45,10 +45,10 @@ import org.junit.rules.TemporaryFolder;
 
 public class CamundaFormDefinitionDeploymentTest {
 
-  protected static final String SIMPLE_FORM = "org/eximeebpms/bpm/engine/test/form/deployment/eximeebpmsFormDefinitionDeploymentTest.simple_form.form";
-  protected static final String SIMPLE_FORM_DUPLICATE = "org/eximeebpms/bpm/engine/test/form/deployment/eximeebpmsFormDefinitionDeploymentTest.simple_form_duplicate.form";
-  protected static final String COMPLEX_FORM = "org/eximeebpms/bpm/engine/test/form/deployment/eximeebpmsFormDefinitionDeploymentTest.complex_form.form";
-  protected static final String SIMPLE_BPMN = "org/eximeebpms/bpm/engine/test/form/deployment/eximeebpmsFormDefinitionDeploymentTest.simpleBPMN.bpmn";
+  protected static final String SIMPLE_FORM = "org/eximeebpms/bpm/engine/test/form/deployment/CamundaFormDefinitionDeploymentTest.simple_form.form";
+  protected static final String SIMPLE_FORM_DUPLICATE = "org/eximeebpms/bpm/engine/test/form/deployment/CamundaFormDefinitionDeploymentTest.simple_form_duplicate.form";
+  protected static final String COMPLEX_FORM = "org/eximeebpms/bpm/engine/test/form/deployment/CamundaFormDefinitionDeploymentTest.complex_form.form";
+  protected static final String SIMPLE_BPMN = "org/eximeebpms/bpm/engine/test/form/deployment/CamundaFormDefinitionDeploymentTest.simpleBPMN.bpmn";
 
   protected ProcessEngineRule engineRule = new ProvidedProcessEngineRule();
   protected ProcessEngineTestRule testRule = new ProcessEngineTestRule(engineRule);

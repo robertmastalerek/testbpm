@@ -64,12 +64,12 @@ public class LdapPosixTestEnvironment extends LdapTestEnvironment {
     startServer();
 
     createGroup("office-berlin");
-    createUserUid("daniel", "office-berlin", "Daniel", "Meyer", "daniel@camunda.org");
+    createUserUid("daniel", "office-berlin", "Daniel", "Meyer", "daniel@eximeebpms.org");
 
     createGroup("people");
-    createUserUid("ruecker", "people", "Bernd", "Ruecker", "ruecker@camunda.org");
-    createUserUid("monster", "people", "Cookie", "Monster", "monster@camunda.org");
-    createUserUid("fozzie", "people", "Bear", "Fozzie", "fozzie@camunda.org");
+    createUserUid("ruecker", "people", "Bernd", "Ruecker", "ruecker@eximeebpms.org");
+    createUserUid("monster", "people", "Cookie", "Monster", "monster@eximeebpms.org");
+    createUserUid("fozzie", "people", "Bear", "Fozzie", "fozzie@eximeebpms.org");
 
     createGroup("groups");
     createPosixGroup("1", "posix-group-without-members");

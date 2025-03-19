@@ -9,7 +9,7 @@
     <result property="businessKey" column="BUSINESS_KEY_" jdbcType="VARCHAR" />
     <result property="startTime" column="START_TIME_" jdbcType="TIMESTAMP"/>
     <result property="suspensionState" column="SUSPENSION_STATE_" jdbcType="INTEGER"/>
-    <collection property="incidents" javaType="java.util.ArrayList" oftype="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.IncidentStatisticsDto">
+    <collection property="incidents" javaType="java.util.ArrayList" ofType="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.IncidentStatisticsDto">
       <result property="incidentType" column="INCIDENT_TYPE_" jdbcType="VARCHAR" />
       <result property="incidentCount" column="INCIDENT_COUNT_" jdbcType="INTEGER"/>
     </collection>
@@ -23,13 +23,13 @@
     <result property="processDefinitionName" column="NAME_" jdbcType="VARCHAR"/>
     <result property="callActivityInstanceId" column="ACT_INST_ID_" jdbcType="VARCHAR"/>
     <result property="callActivityId" column="ACT_ID_" jdbcType="VARCHAR"/>
-    <collection property="incidents" javaType="java.util.ArrayList" oftype="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.IncidentStatisticsDto">
+    <collection property="incidents" javaType="java.util.ArrayList" ofType="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.IncidentStatisticsDto">
       <result property="incidentType" column="INCIDENT_TYPE_" jdbcType="VARCHAR" />
       <result property="incidentCount" column="INCIDENT_COUNT_" jdbcType="INTEGER"/>
     </collection>
   </resultMap>
 
-  <select id="selectRunningProcessInstancesCount" parametertype="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.ProcessInstanceQueryDto"
+  <select id="selectRunningProcessInstancesCount" parameterType="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.ProcessInstanceQueryDto"
           resultType="long">
     <bind name="joinHistory" value="false"/>
     ${countDistinctBeforeStart} RES.ID_ ${countDistinctBeforeEnd}
@@ -38,7 +38,7 @@
 
   </select>
 
-  <select id="selectRunningProcessInstancesIncludingIncidents" parametertype="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.ProcessInstanceQueryDto"
+  <select id="selectRunningProcessInstancesIncludingIncidents" parameterType="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.ProcessInstanceQueryDto"
           resultMap="processInstanceMap">
     <bind name="joinHistory" value="false"/>
     select distinct
@@ -255,7 +255,7 @@
     </where>
   </sql>
 
-  <select id="selectCalledProcessInstances" parametertype="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.ProcessInstanceQueryDto"
+  <select id="selectCalledProcessInstances" parameterType="org.eximeebpms.bpm.cockpit.impl.plugin.base.dto.query.ProcessInstanceQueryDto"
           resultMap="calledProcessInstanceMap">
     select distinct RES.ID_, RES.BUSINESS_KEY_, EXEC1.ACT_INST_ID_, EXEC1.ACT_ID_, PROC_.ID_ AS SUPER_PROC_DEF_ID_,PROC_.KEY_, PROC_.NAME_, INCIDENT.INCIDENT_TYPE_, INCIDENT.INCIDENT_COUNT_
     <include refid="selectCalledProcessInstancesByCriteria" />

@@ -68,10 +68,10 @@ server:
 # do not use the provided certificate in production
   ssl:
     key-store: classpath:keystore.p12
-    key-store-password: eximeebpms
+    key-store-password: camunda
     key-store-type: pkcs12
-    key-alias: eximeebpms
-    key-password: eximeebpms
+    key-alias: camunda
+    key-password: camunda
   port: 8443
 
 # https://docs.camunda.org/manual/latest/user-guide/security/#http-header-security-in-webapps

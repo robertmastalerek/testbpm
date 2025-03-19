@@ -103,7 +103,7 @@ public class LdapUserQueryTest {
     assertThat(user.getId()).isEqualTo("oscar");
     assertThat(user.getFirstName()).isEqualTo("Oscar");
     assertThat(user.getLastName()).isEqualTo("The Crouch");
-    assertThat(user.getEmail()).isEqualTo("oscar@camunda.org");
+    assertThat(user.getEmail()).isEqualTo("oscar@eximeebpms.org");
   }
 
   @Test
@@ -159,7 +159,7 @@ public class LdapUserQueryTest {
       assertThat(user.getId()).isEqualTo("oscar");
       assertThat(user.getFirstName()).isEqualTo("Oscar");
       assertThat(user.getLastName()).isEqualTo("The Crouch");
-      assertThat(user.getEmail()).isEqualTo("oscar@camunda.org");
+      assertThat(user.getEmail()).isEqualTo("oscar@eximeebpms.org");
     } finally {
       processEngineConfiguration.setAuthorizationEnabled(false);
       identityService.clearAuthentication();
@@ -359,11 +359,11 @@ public class LdapUserQueryTest {
     // given
 
     // when
-    User user = identityService.createUserQuery().userEmail("oscar@camunda.org").singleResult();
+    User user = identityService.createUserQuery().userEmail("oscar@eximeebpms.org").singleResult();
 
     // then
     assertThat(user).isNotNull();
-    assertThat(user.getEmail()).isEqualTo("oscar@camunda.org");
+    assertThat(user.getEmail()).isEqualTo("oscar@eximeebpms.org");
   }
 
   @Test
@@ -386,7 +386,7 @@ public class LdapUserQueryTest {
 
     // then
     assertThat(user).isNotNull();
-    assertThat(user.getEmail()).isEqualTo("oscar@camunda.org");
+    assertThat(user.getEmail()).isEqualTo("oscar@eximeebpms.org");
   }
 
   @Test
@@ -394,11 +394,11 @@ public class LdapUserQueryTest {
     // given
 
     // when
-    User user = identityService.createUserQuery().userEmailLike("*car@camunda.org").singleResult();
+    User user = identityService.createUserQuery().userEmailLike("*car@eximeebpms.org").singleResult();
 
     // then
     assertThat(user).isNotNull();
-    assertThat(user.getEmail()).isEqualTo("oscar@camunda.org");
+    assertThat(user.getEmail()).isEqualTo("oscar@eximeebpms.org");
   }
 
   @Test
@@ -410,7 +410,7 @@ public class LdapUserQueryTest {
 
     // then
     assertThat(user).isNotNull();
-    assertThat(user.getEmail()).isEqualTo("oscar@camunda.org");
+    assertThat(user.getEmail()).isEqualTo("oscar@eximeebpms.org");
   }
 
   @Test
@@ -422,7 +422,7 @@ public class LdapUserQueryTest {
 
     // then
     assertThat(user).isNotNull();
-    assertThat(user.getEmail()).isEqualTo("oscar@camunda.org");
+    assertThat(user.getEmail()).isEqualTo("oscar@eximeebpms.org");
   }
 
   @Test
@@ -445,7 +445,7 @@ public class LdapUserQueryTest {
 
     // then
     assertThat(user).isNotNull();
-    assertThat(user.getEmail()).isEqualTo("oscar@camunda.org");
+    assertThat(user.getEmail()).isEqualTo("oscar@eximeebpms.org");
   }
 
   @Test
@@ -512,12 +512,12 @@ public class LdapUserQueryTest {
     // when
     List<User> result = identityService.createUserQuery()
             .memberOfGroup("development")
-            .userEmail("oscar@camunda.org")
+            .userEmail("oscar@eximeebpms.org")
             .list();
 
     // then
     assertThat(result).hasSize(1);
-    assertThat(result.get(0).getEmail()).isEqualTo("oscar@camunda.org");
+    assertThat(result.get(0).getEmail()).isEqualTo("oscar@eximeebpms.org");
   }
 
   @Test
@@ -527,12 +527,12 @@ public class LdapUserQueryTest {
     // when
     List<User> result = identityService.createUserQuery()
             .memberOfGroup("development")
-            .userEmailLike("*@camunda.org")
+            .userEmailLike("*@eximeebpms.org")
             .list();
 
     // then
     assertThat(result).hasSize(3);
-    assertThat(result).extracting("email").containsOnly("daniel@camunda.org", "roman@camunda.org", "oscar@camunda.org");
+    assertThat(result).extracting("email").containsOnly("daniel@eximeebpms.org", "roman@eximeebpms.org", "oscar@eximeebpms.org");
   }
 
   @Test

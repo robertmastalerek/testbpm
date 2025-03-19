@@ -37,7 +37,7 @@
           <text>${output1}</text>
         </outputEntry>
         <outputEntry>
-          <text>"camunda"</text>
+          <text>"eximeebpms"</text>
         </outputEntry>
         <outputEntry />
       </rule>
@@ -53,7 +53,7 @@
         </inputEntry>
         <outputEntry />
         <outputEntry>
-          <text>"camunda"</text>
+          <text>"eximeebpms"</text>
         </outputEntry>
         <outputEntry />
       </rule>

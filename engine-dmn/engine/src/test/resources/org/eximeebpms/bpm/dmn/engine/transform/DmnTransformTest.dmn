@@ -5,11 +5,11 @@
              xmlns="http://www.omg.org/spec/DMN/20151101/dmn.xsd"
              xmlns:eximeebpms="http://eximeebpms.org/schema/1.0/dmn">
 
-  <decision id="decision1" name="camunda">
+  <decision id="decision1" name="eximeebpms">
     <decisionTable id="decisionTable1">
-      <input id="input1" label="camunda" eximeebpms:inputVariable="camunda">
-        <inputExpression id="inputExpression" typeRef="string" expressionLanguage="camunda">
-          <text>camunda</text>
+      <input id="input1" label="eximeebpms" eximeebpms:inputVariable="eximeebpms">
+        <inputExpression id="inputExpression" typeRef="string" expressionLanguage="eximeebpms">
+          <text>eximeebpms</text>
         </inputExpression>
       </input>
       <input id="input2">
@@ -17,17 +17,17 @@
           <text/>
         </inputExpression>
       </input>
-      <output id="output1" label="camunda" name="camunda" typeRef="string" />
+      <output id="output1" label="eximeebpms" name="eximeebpms" typeRef="string" />
       <output id="output2" name="out2"/>
       <rule id="rule">
-        <inputEntry id="inputEntry" label="camunda" expressionLanguage="camunda">
-          <text>camunda</text>
+        <inputEntry id="inputEntry" label="eximeebpms" expressionLanguage="eximeebpms">
+          <text>eximeebpms</text>
         </inputEntry>
         <inputEntry>
           <text/>
         </inputEntry>
-        <outputEntry id="outputEntry" label="camunda" expressionLanguage="camunda">
-          <text>camunda</text>
+        <outputEntry id="outputEntry" label="eximeebpms" expressionLanguage="eximeebpms">
+          <text>eximeebpms</text>
         </outputEntry>
         <outputEntry>
           <text/>
@@ -36,7 +36,7 @@
     </decisionTable>
   </decision>
   <decision id="decision2" name="ignored" />
-  <decision id="decision3" name="camunda">
+  <decision id="decision3" name="eximeebpms">
     <decisionTable id="decisionTable2" hitPolicy="FIRST">
       <output id="output3"/>
     </decisionTable>
