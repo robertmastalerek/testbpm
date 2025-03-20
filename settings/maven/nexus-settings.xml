@@ -78,8 +78,8 @@
         <database.host>localhost</database.host>
         <database.port>1433</database.port>
         <database.name>process-engine</database.name>
-        <database.username>camunda</database.username>
-        <database.password>Camunda-BPM123</database.password>
+        <database.username>eximeebpms</database.username>
+        <database.password>EximeeBPMS-BPM123</database.password>
       </properties>
     </profile>
     <profile>

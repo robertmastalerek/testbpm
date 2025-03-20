@@ -24,8 +24,8 @@ There are 3 web applications available for the Camunda Platform :
 
 The webapps above are relying on 2 libraries:
 
-* __camunda-bpm-sdk-js__: provides tools for developers who want interact with the platform using Javascript
-* __camunda-commons-ui__: is a set of shared scripts, templates and assets, used in the different webapps
+* __eximeebpms-bpm-sdk-js__: provides tools for developers who want interact with the platform using Javascript
+* __eximeebpms-commons-ui__: is a set of shared scripts, templates and assets, used in the different webapps
 
 
 #### Plugins
@@ -41,11 +41,11 @@ Translations for other languages are available in the [camunda-7-webapp-translat
 
 ### Libraries
 
-#### [camunda-bpm-sdk-js](https://github.com/camunda/camunda-bpm-platform/tree/master/webapps/frontend/camunda-bpm-sdk-js)
+#### [eximeebpms-bpm-sdk-js](https://github.com/camunda/eximeebpms-bpm-platform/tree/master/webapps/frontend/eximeebpms-bpm-sdk-js)
 
-Has tools to work with the REST API and forms (included transitively via camunda-commons-ui).
+Has tools to work with the REST API and forms (included transitively via eximeebpms-commons-ui).
 
-#### [camunda-commons-ui](https://github.com/camunda/camunda-bpm-platform/tree/master/webapps/frontend/camunda-commons-ui)
+#### [eximeebpms-commons-ui](https://github.com/camunda/eximeebpms-bpm-platform/tree/master/webapps/frontend/eximeebpms-commons-ui)
 
 Contains resources like images, [`.less`](http://lesscss.org) stylesheets as well as some [angular.js](http://angularjs.org) modules.
 
@@ -57,7 +57,7 @@ You need [node.js](http://nodejs.org) >= 17 and npm.
 
 #### Adjusting Maven Settings
 
-See https://github.com/camunda/camunda-bpm-platform/blob/master/CONTRIBUTING.md#build-from-source
+See https://github.com/camunda/eximeebpms-bpm-platform/blob/master/CONTRIBUTING.md#build-from-source
 
 #### Using Webpack
 
@@ -65,8 +65,8 @@ Build the web apps using Webpack:
 
 ```sh
 # cd <path to your workspace>
-git clone git@github.com:camunda/camunda-bpm-platform.git
-cd camunda-bpm-platform/webapps/frontend
+git clone git@github.com:camunda/eximeebpms-bpm-platform.git
+cd eximeebpms-bpm-platform/webapps/frontend
 npm install
 npm start
 ```
@@ -74,7 +74,7 @@ npm start
 To start the server in development mode, call
 
 ```sh
-cd camunda-bpm-platform/webapps/assembly
+cd eximeebpms-bpm-platform/webapps/assembly
 mvn jetty:run -Pdevelop
 ```
 
@@ -87,7 +87,7 @@ You can now start developing using the `npm run start` command in the frontend d
 In order to run the Jakarta Webapps start Jetty the same way from the `assembly-jakarta` folder
 
 ```sh
-cd camunda-bpm-platform/webapps/assembly
+cd eximeebpms-bpm-platform/webapps/assembly
 mvn jetty:run -Pdevelop
 npm run start
 ```
@@ -102,7 +102,7 @@ The supported browsers are:
 
 ## Contributing
 
-Have a look at our [contribution guide](https://github.com/camunda/camunda-bpm-platform/blob/master/CONTRIBUTING.md) for how to contribute to this repository.
+Have a look at our [contribution guide](https://github.com/camunda/eximeebpms-bpm-platform/blob/master/CONTRIBUTING.md) for how to contribute to this repository.
 
 
 ## Help and support
