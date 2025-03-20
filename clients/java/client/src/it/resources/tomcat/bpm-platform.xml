@@ -31,7 +31,7 @@
         <class>org.eximeebpms.bpm.application.impl.event.ProcessApplicationEventListenerPlugin</class>
       </plugin>
 
-      <!-- plugin enabling integration of camunda Spin -->
+      <!-- plugin enabling integration of eximeebpms Spin -->
       <plugin>
         <class>org.eximeebpms.spin.plugin.impl.SpinProcessEnginePlugin</class>
       </plugin>
@@ -69,7 +69,7 @@
         <class>org.eximeebpms.bpm.application.impl.event.ProcessApplicationEventListenerPlugin</class>
       </plugin>
 
-      <!-- plugin enabling integration of camunda Spin -->
+      <!-- plugin enabling integration of eximeebpms Spin -->
       <plugin>
         <class>org.eximeebpms.spin.plugin.impl.SpinProcessEnginePlugin</class>
       </plugin>
