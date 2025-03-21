@@ -28,8 +28,8 @@ on:
       - 'NOTICE'
 
 permissions:
-  contents: read
-  packages: read
+  contents: write
+  packages: write
   checks: write
   id-token: write
 
