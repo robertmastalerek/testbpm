@@ -325,18 +325,6 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
-    <repository>
-      <!-- Required for local builds by community users on master branch -->
-      <id>eximeebpms-public-repository</id>
-      <name>EximeeBPMS Maven Repository</name>
-      <url>https://artifacts.camunda.com/artifactory/public/</url>
-    </repository>
-    <repository>
-      <!-- Required for local builds by developers on maintainance branches -->
-      <id>camunda-nexus</id>
-      <name>EximeeBPMS Nexus</name>
-      <url>https://artifacts.camunda.com/artifactory/internal</url>
-    </repository>
   </repositories>
 
   <licenses>
