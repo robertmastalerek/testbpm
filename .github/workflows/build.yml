@@ -79,6 +79,8 @@ jobs:
           .github/scripts/jacoco-create-flag-files.sh
           ./mvnw clean verify
           ./mvnw --non-recursive org.jacoco:jacoco-maven-plugin:report-aggregate
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish Test Report
         if: always()
         #https://github.com/marketplace/actions/junit-report-action
