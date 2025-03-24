@@ -76,7 +76,7 @@ jobs:
         shell: bash
         run: |
           .github/scripts/jacoco-create-flag-files.sh
-          ./mvnw clean test
+          ./mvnw clean verify
           ./mvnw --non-recursive org.jacoco:jacoco-maven-plugin:report-aggregate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
