@@ -74,10 +74,9 @@ jobs:
       - name: Maven Build
         id: maven-build
         shell: bash
-        # TODO - remove skipTests
         run: |
           .github/scripts/jacoco-create-flag-files.sh
-          ./mvnw clean verify -DskipTests
+          ./mvnw clean test
           ./mvnw --non-recursive org.jacoco:jacoco-maven-plugin:report-aggregate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

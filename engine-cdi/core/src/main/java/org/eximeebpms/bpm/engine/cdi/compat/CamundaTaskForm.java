@@ -23,7 +23,7 @@ import javax.inject.Named;
 import org.eximeebpms.bpm.engine.cdi.jsf.TaskForm;
 
 @ConversationScoped
-@Named("camunda.taskForm")
+@Named("eximeebpms.taskForm")
 @Typed({CamundaTaskForm.class})
 public class CamundaTaskForm extends TaskForm {
 
