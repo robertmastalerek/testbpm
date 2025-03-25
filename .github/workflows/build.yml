@@ -41,6 +41,11 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          java-version: '11'
+          distribution: 'temurin'
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
@@ -76,7 +81,7 @@ jobs:
         shell: bash
         run: |
           .github/scripts/jacoco-create-flag-files.sh
-          ./mvnw verify -DskipTests
+          ./mvnw clean verify
           ./mvnw --non-recursive org.jacoco:jacoco-maven-plugin:report-aggregate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
